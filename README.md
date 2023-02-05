@@ -1,6 +1,10 @@
-# rust-new-project-template
-A good starting point for a new Rust project
+# A simple calculator
 
-## References
+This mini project can used as a simple calculator that can make calculation of +-*/
 
-* [rust-cli-template](https://github.com/kbknapp/rust-cli-template)
+## Run the project
+
+`cargo run -- calculate 'operator' 'num1' 'num2'`
+The operator can be '+', '-', '*' or '/'
+
+num1 and num2 are integers.
